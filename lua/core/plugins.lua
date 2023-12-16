@@ -15,10 +15,10 @@ local ensure_packer = function()
     use 'wbthomason/packer.nvim'
     use 'nvim-tree/nvim-tree.lua'
     use {'dracula/vim', as = 'dracula'}
-    use 'nvim-treesitter/nvim-treesitter'
+    use {'nvim-treesitter/nvim-treesitter'}
     use {
         'nvim-telescope/telescope.nvim',
-        tag = '0.1.0',
+        tag = '0.1.4',
         requires = {{'nvim-lua/plenary.nvim'}}
     }
     use 'neovim/nvim-lspconfig' -- Collection of configurations for built-in LSP client
@@ -26,6 +26,8 @@ local ensure_packer = function()
     use 'hrsh7th/cmp-nvim-lsp' -- LSP source for nvim-cmp
     use 'saadparwaiz1/cmp_luasnip' -- Snippets source for nvim-cmp
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
+    use 'ThePrimeagen/harpoon'
+    use 'm4xshen/autoclose.nvim'
     -- My plugins here
     -- use 'foo1/bar1.nvim'
     -- use 'foo2/bar2.nvim'
