@@ -28,6 +28,7 @@ local ensure_packer = function()
     use 'L3MON4D3/LuaSnip' -- Snippets plugin
     use 'ThePrimeagen/harpoon'
     use 'm4xshen/autoclose.nvim'
+    use 'navarasu/onedark.nvim'
     -- My plugins here
     -- use 'foo1/bar1.nvim'
     -- use 'foo2/bar2.nvim'

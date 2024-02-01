@@ -1,1 +1,2 @@
-vim.cmd[[colorscheme dracula]]
+# vim.cmd[[colorscheme dracula]]
+require('onedark').load()

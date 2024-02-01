@@ -16,3 +16,7 @@ vim.opt.shiftround = true
 vim.opt.expandtab = true
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+
+-- cp and p
+vim.keymap.set({'n', 'v'}, "p", '"+p')
+vim.keymap.set('v', "y", '"+y')
