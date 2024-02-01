@@ -29,6 +29,10 @@ local ensure_packer = function()
     use 'ThePrimeagen/harpoon'
     use 'm4xshen/autoclose.nvim'
     use 'navarasu/onedark.nvim'
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
     -- My plugins here
     -- use 'foo1/bar1.nvim'
     -- use 'foo2/bar2.nvim'
